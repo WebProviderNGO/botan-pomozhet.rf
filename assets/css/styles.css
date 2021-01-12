@@ -1,0 +1,67 @@
+header .uk-button-default {
+    color: #ddd;
+    border: 1px solid #ddd;
+}
+
+header .uk-button-default:focus,
+header .uk-button-default:hover {
+    background-color: transparent;
+    color: white;
+    border-color: white;
+}
+
+.TopSearch {
+    margin-top: 40vh !important;
+    color: white;
+}
+
+.TopSearch .uk-text-lead {
+    color: white;
+}
+
+.TopSearch .uk-text-lead b {
+    color: #28a5f5;
+}
+
+.HomeSteps {
+    background-color: #f07575;
+    background-image: linear-gradient(to bottom,#2597dd,#1b78d4);
+}
+
+.HomeStepsNumber {
+    font-size: 100px;
+    font-weight: bold;
+    color: rgba(0,0,0,.1);
+    line-height: 100px;
+    margin-bottom: 30px;
+}
+
+.HomeSteps h4 {
+    margin: 0;
+}
+
+.HomeCatalog .uk-badge {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 0;
+}
+
+.HomeCatalog h4 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+footer {
+    background: #45494e;
+}
+
+footer, footer a {
+    color: #999;
+}
+
+footer .uk-subnav > * > a:focus, footer .uk-subnav > * > a:hover {
+    color: #777;
+    text-decoration: none;
+    outline: 0;
+}

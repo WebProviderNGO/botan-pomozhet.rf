@@ -1,0 +1,15 @@
+.uk-logo {
+    color: #eee;
+}
+
+.uk-logo:focus, .uk-logo:hover {
+    color: #fff;
+}
+
+.uk-navbar-nav > li > a {
+    color: #ddd;
+}
+
+.uk-navbar-nav > li:hover > a, .uk-navbar-nav > li > a.uk-open, .uk-navbar-nav > li > a:focus {
+    color: #fff;
+}
