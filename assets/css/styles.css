@@ -1,13 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap');
+
+body,
+.uk-h1,
+.uk-h2,
+.uk-h3,
+.uk-h4,
+.uk-h5,
+.uk-h6,
+.uk-heading-2xlarge,
+.uk-heading-large,
+.uk-heading-medium,
+.uk-heading-small,
+.uk-heading-xlarge,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.uk-section-secondary h2,
+.uk-section-secondary h4,
+.HomeCatalog h4,
+.uk-legend {
+    font-weight: bold;
+}
+
+header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+header a,
+header a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+header .uk-subnav>*> :first-child {
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    /* border-bottom: 3px solid transparent; */
+}
+
+header .uk-subnav>*> :first-child:focus,
+header .uk-subnav>*> :first-child:hover {
+    background-color: #1e87f0;
+    /* border-bottom: 3px solid #1e87f0; */
+}
+
+.uk-navbar-toggle {
+    color: white;
+}
+
 header .uk-button-default {
-    color: #ddd;
-    border: 1px solid #ddd;
+    color: white;
+    border: 1px solid white;
 }
 
 header .uk-button-default:focus,
 header .uk-button-default:hover {
     background-color: transparent;
-    color: white;
-    border-color: white;
+    color: #1e87f0;
+    border-color: #1e87f0;
 }
 
 .TopSearch {
@@ -16,7 +75,7 @@ header .uk-button-default:hover {
 }
 
 .TopSearch .uk-text-lead {
-    color: white;
+    color: black;
 }
 
 .TopSearch .uk-text-lead b {
@@ -25,15 +84,21 @@ header .uk-button-default:hover {
 
 .HomeSteps {
     background-color: #f07575;
-    background-image: linear-gradient(to bottom,#2597dd,#1b78d4);
+    background-image: linear-gradient(to bottom, #2597dd, #1b78d4);
 }
 
 .HomeStepsNumber {
     font-size: 100px;
     font-weight: bold;
-    color: rgba(0,0,0,.1);
+    color: rgba(0, 0, 0, .1);
     line-height: 100px;
     margin-bottom: 30px;
+}
+
+.HomeStepsNumber:hover {
+    cursor: default;
+    color: rgb(0, 0, 0) !important;
+    transition: .2s ease-in-out;
 }
 
 .HomeSteps h4 {
@@ -56,11 +121,13 @@ footer {
     background: #45494e;
 }
 
-footer, footer a {
+footer,
+footer a {
     color: #999;
 }
 
-footer .uk-subnav > * > a:focus, footer .uk-subnav > * > a:hover {
+footer .uk-subnav>*>a:focus,
+footer .uk-subnav>*>a:hover {
     color: #777;
     text-decoration: none;
     outline: 0;
