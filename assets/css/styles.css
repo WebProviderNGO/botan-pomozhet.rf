@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap');
 
+body {
+    background-color: #f8f8f8;
+}
+
 body,
 .uk-h1,
 .uk-h2,
@@ -44,13 +48,11 @@ header .uk-subnav>*> :first-child {
     background-color: transparent;
     color: white;
     font-weight: bold;
-    /* border-bottom: 3px solid transparent; */
 }
 
 header .uk-subnav>*> :first-child:focus,
 header .uk-subnav>*> :first-child:hover {
     background-color: #1e87f0;
-    /* border-bottom: 3px solid #1e87f0; */
 }
 
 .uk-navbar-toggle {
@@ -113,7 +115,7 @@ header .uk-button-default:hover {
 }
 
 .HomeCatalog h4 {
-    margin-top: 20px;
+    margin-top: 0;
     margin-bottom: 40px;
 }
 
@@ -128,7 +130,54 @@ footer a {
 
 footer .uk-subnav>*>a:focus,
 footer .uk-subnav>*>a:hover {
-    color: #777;
+    color: #ccc;
     text-decoration: none;
     outline: 0;
+}
+
+.HeaderPage {
+    background-color: #1e87f0;
+}
+
+.HeaderPage .uk-subnav>*> :first-child:focus,
+.HeaderPage .uk-subnav>*> :first-child:hover,
+.HeaderPage .uk-button-primary {
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+.HeaderPage .uk-button-primary:focus,
+.HeaderPage .uk-button-primary:hover {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+header .uk-button-default:focus,
+header .uk-button-default:hover {
+    background-color: rgba(0, 0, 0, 0.25);
+    color: white;
+    border-color: white;
+}
+
+.CardCeni .uk-card-header {
+    background-color: #1e87f0;
+    border-bottom: none;
+}
+
+.CardCeni .uk-card-default .uk-card-title {
+    color: white;
+    font-size: .9rem;
+    font-weight: bold;
+}
+
+.CardCeni .uk-card-default .uk-card-footer {
+    border-top: none;
+}
+
+.CardGarOtziv .uk-card-title {
+    color: #1e87f0;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.CardGarOtziv-Header {
+    text-align: center;
 }
